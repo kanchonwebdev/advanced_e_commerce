@@ -1,0 +1,34 @@
+.single-product-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-product-left{
+    flex-basis: 50%;
+}
+
+.single-product-right{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-bottom: 50px;
+}
+
+.single-product-text-field{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    font-family: "Josefin Sans", Sans-serif;
+}
+
+.single-product-btn{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    font-family: "Josefin Sans", Sans-serif;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.pay{
+    max-width: 1200px;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.payment-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.payment-content{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.pay-block-2{
+    border: var(--border);
+    padding: 5px;
+    cursor: pointer;
+}

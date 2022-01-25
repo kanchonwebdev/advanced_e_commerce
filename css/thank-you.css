@@ -1,0 +1,33 @@
+.thank-you{
+    max-width: 1200px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.thank-you-header{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.thank-you-btn{
+    border: var(--border);
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    .thank-you{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .thank-you-header{
+        font-size: 25px;
+    }
+}

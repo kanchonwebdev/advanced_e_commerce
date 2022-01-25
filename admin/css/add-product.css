@@ -1,0 +1,72 @@
+.add-product{
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.product-text-field{
+    flex-basis: 100%;
+    padding: 15px 25px;
+    border: 1px solid gray;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+.product-txt-btn{
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.add-product-season{
+    display: none;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.main-category-block{
+    display: none;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.feature-category-block{
+    display: none;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.feature-category-delivery-block{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+#output{
+    width: 300px;
+    height: 400px;
+}
+
+#output_2{
+    width: 300px;
+    height: 400px;
+}
+
+#output_3{
+    width: 300px;
+    height: 400px;
+}

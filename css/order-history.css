@@ -1,0 +1,14 @@
+.order-history{
+    max-width: var(--container-width);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.order-history select{
+    padding: 10px 20px;
+    font-family: var(--font-name);
+    border: var(--border);
+}

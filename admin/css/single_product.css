@@ -1,0 +1,123 @@
+::placeholder{
+    font-family: "Josefin Sans", Sans-serif;
+}
+
+.admin-single-product{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.admin-single-product-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 50px;
+}
+
+.admin-single-product-header-left{
+    flex-basis: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.admin-single-product-img{
+    max-width: 200px;
+}
+
+.admin-single-product-header-right{
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.admin-single-product-header-right-block{
+    font-size: 17px;
+    display: flex;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+}
+
+.admin-single-product-header-right-block span{
+    flex-basis: 150px;
+}
+
+.admin-single-product-text-field{
+    border: 1px solid gray;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-family: "Josefin Sans", Sans-serif;
+    flex-basis: 300px;
+}
+
+#admin-single-product-text-field{
+    width: 500px;
+    display: flex;
+    background-color: red;
+}
+
+#admin-single-product-text-field .admin-single-product-text-field{
+    flex-basis: 100%;
+}
+
+.single-product-btn{
+    flex-basis: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-family: "Josefin Sans", Sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.admin-single-product-footer{
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+}
+
+.admin-single-product-footer-header{
+    display: flex;
+    column-gap: 20px;
+}
+
+.admin-single-product-footer-header-block{
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+.admin-single-product-footer-footer-block{
+    border: 1px solid gray;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 17px;
+}
+
+.admin-single-product-header-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.admin-single-product-footer-footer-block-content{
+    display: flex;
+    column-gap: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.admin-single-product-footer-footer{
+    padding-bottom: 50px;
+}

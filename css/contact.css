@@ -1,0 +1,121 @@
+.contact{
+    max-width: 1920px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+.contact-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+.contact-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-header-left{
+    flex-basis: 550px;
+}
+
+.contact-header-right{
+    flex-basis: 550px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.contact-header-right-text h2{
+    margin: unset;
+}
+
+.contact-header-right-block{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.contact-header-right span{
+    font-size: 40px;
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.contact-footer-header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-footer-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.contact-footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.contact-footer-text-field{
+    flex-basis: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: var(--font-name);
+    border: var(--border);
+}
+
+.contact-footer-block textarea{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: var(--font-name);
+    border: var(--border);
+}
+
+.contact-btn{
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .contact{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-container{
+        row-gap: 30px;
+    }
+
+    .contact-header{
+        flex-direction: column;
+    }
+
+    .contact-footer-block{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .contact-footer-text-field{
+        width: 100%;
+    }
+}

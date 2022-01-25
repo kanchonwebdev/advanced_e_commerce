@@ -1,0 +1,32 @@
+.track-order{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.track-order-block{
+    flex-basis: 30%;
+}
+
+.track-order-text-field{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: var(--font-name);
+    border: var(--border);
+    font-size: 16px;
+    outline: none;
+}
+
+.track-btn{
+    padding: 15px 20px;
+    border: var(--border);
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
